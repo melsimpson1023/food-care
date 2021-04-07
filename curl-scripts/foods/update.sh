@@ -1,10 +1,13 @@
 #!/bin/bash
 
-curl "http://localhost:8000/foods/${ID}" \
+API="http://localhost:4741"
+URL_PATH="/foods/:id"
+
+curl "${API}${URL_PATH}/${ID}" \
   --include \
   --request PATCH \
   --header "Content-Type: application/json" \
-  --header "Authorization: Token ${TOKEN}" \
+  --header "Authorization: Bearer ${TOKEN}" \
   --data '{
     "food": {
       "name": "'"${NAME}"'",
