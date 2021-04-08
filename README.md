@@ -8,10 +8,9 @@ https://melsimpson1023.github.io/food-care
 
 ### Restful API
 
-
+https://food-care-project.herokuapp.com/
 
 ## Installation
-
 
 1. Fork and clone this repo.
 2. Switch to the new directory in terminal
@@ -34,6 +33,10 @@ https://melsimpson1023.github.io/food-care
 6. Configured food_routes.js
 7. Updated db.js with const mongooseBaseName = 'food-care'.
 8. Made sure everything worked.
+9. Pushed everything up onto Github.
+10. Created a mongoDB project and cluster.
+11. Uploaded to Heroku
+
 ## About
 
 This is the back-end API for a web applications that promote free food delievery for the elderly and low income families. 
@@ -69,7 +72,7 @@ User -|< Food
 
 ## Planning and Problem Solving
 
-From using my past knowledge from what I have learned through the course and experience with the past projects, I used miro.com for my wireframe.
+From using my past knowledge from what I have learned through the courses and experience with the past projects. I did come across an issue that was causing me to update. I fixed that by taking the :id out of the API_URL link.
 
 Miro Link: 
 
