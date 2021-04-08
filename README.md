@@ -72,7 +72,7 @@ User -|< Food
 
 ## Planning and Problem Solving
 
-From using my past knowledge from what I have learned through the courses and experience with the past projects. I did come across an issue that was causing me to update. I fixed that by taking the :id out of the API_URL link.
+From using my past knowledge from what I have learned through the courses and experience with the past projects. I did come across an issue that was causing me an issue with update. I fixed that by taking the :id out of the API_URL link.
 
 Miro Link: 
 
